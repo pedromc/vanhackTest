@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c60b2691-ca3e-4e05-9f99-0afd85ca02ec" name="Default Changelist" comment="" />
+    <list default="true" id="c60b2691-ca3e-4e05-9f99-0afd85ca02ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/ProcessOrdersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/ProcessOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/ProcessOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/faireAPI/FaireAPIStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/faireAPI/FaireAPIStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/MetricsUpdaterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/MetricsUpdaterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/faire/vanhackTest/ProcessOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/faire/vanhackTest/ProcessOrders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/faire/vanhackTest/metrics/MetricsUpdaterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/faire/vanhackTest/metrics/MetricsUpdaterTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +25,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/BiggestOrder.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/faireAPI/FaireAPIStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="144">
+              <caret line="66" column="59" lean-forward="true" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
               <folding>
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2762#2763#0" expanded="true" />
+                <element signature="e#2805#2806#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,24 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/BiggestOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="16" selection-start-line="16" selection-end-line="62" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/LargestOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="45" selection-start-line="45" selection-end-line="46" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -58,50 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/LargestOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" selection-start-line="17" selection-end-line="69" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/TestConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/ProductItemInMoreOrders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/ProductItemInMoreOrdersTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="37" selection-start-line="37" selection-end-line="46" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/StateWithMoreOrders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="49" selection-start-line="49" selection-end-line="50" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -109,20 +60,73 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/StateWithMoreOrdersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            <state relative-caret-position="161">
+              <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/MetricsUpdaterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="249">
+              <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/ProcessOrders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2488#2489#0" expanded="true" />
+                <element signature="e#2540#2541#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/ProcessOrdersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/InventoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="73" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/BestSellingProductOptionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -146,15 +150,16 @@
       <replace>ProductOption</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/ProductOption.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/InventoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/OrderItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/ProcessOrders.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/Shipment.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -162,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/ProductUpdateValues.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/ProductOptionUpdateValues.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/faireAPI/FaireAPIInt.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/faireAPI/FaireAPIStub.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/Inventory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/MetricsInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/OrderMetricsInterface.java" />
@@ -182,6 +186,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/TestConstants.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/StateWithMoreOrdersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/MetricsUpdaterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/ProcessOrders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/ProcessOrdersTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/InventoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/faireAPI/FaireAPIStub.java" />
       </list>
     </option>
   </component>
@@ -207,6 +216,7 @@
     <option name="width" value="1326" />
     <option name="height" value="690" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -323,6 +333,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="vanhackTest" type="462c0819:PsiDirectoryNode" />
+              <item name="faireAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vanhackTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vanhackTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vanhackTest" type="462c0819:PsiDirectoryNode" />
               <item name="metrics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -332,7 +351,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553306585044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553308191519" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -342,8 +361,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.faire.vanhackTest.metrics" />
       <recent name="com.faire.vanhackTest" />
+      <recent name="com.faire.vanhackTest.metrics" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -361,32 +380,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StateWithMoreOrdersTest">
-    <configuration name="BestSellingProductOptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InventoryTest">
+    <configuration name="InventoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vanhackTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.faire.vanhackTest.metrics.*" />
+          <option name="PATTERN" value="com.faire.vanhackTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.faire.vanhackTest.metrics" />
-      <option name="MAIN_CLASS_NAME" value="com.faire.vanhackTest.metrics.BestSellingProductOptionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BiggestOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vanhackTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.faire.vanhackTest.metrics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.faire.vanhackTest.metrics" />
-      <option name="MAIN_CLASS_NAME" value="com.faire.vanhackTest.metrics.BiggestOrderTest" />
+      <option name="PACKAGE_NAME" value="com.faire.vanhackTest" />
+      <option name="MAIN_CLASS_NAME" value="com.faire.vanhackTest.InventoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -402,6 +406,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.faire.vanhackTest.metrics" />
       <option name="MAIN_CLASS_NAME" value="com.faire.vanhackTest.metrics.LargestOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetricsUpdaterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vanhackTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.faire.vanhackTest.metrics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.faire.vanhackTest.metrics" />
+      <option name="MAIN_CLASS_NAME" value="com.faire.vanhackTest.metrics.MetricsUpdaterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -439,11 +458,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InventoryTest" />
+        <item itemvalue="JUnit.MetricsUpdaterTest" />
         <item itemvalue="JUnit.StateWithMoreOrdersTest" />
         <item itemvalue="JUnit.ProductItemInMoreOrdersTest" />
         <item itemvalue="JUnit.LargestOrderTest" />
-        <item itemvalue="JUnit.BiggestOrderTest" />
-        <item itemvalue="JUnit.BestSellingProductOptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -461,27 +480,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BiggestOrderTest - 2019.03.22 at 22h 38m 41s.xml">
-      <configuration name="BiggestOrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BiggestOrderTest - 2019.03.22 at 22h 39m 36s.xml">
-      <configuration name="BiggestOrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BiggestOrderTest - 2019.03.22 at 22h 40m 22s.xml">
-      <configuration name="BiggestOrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BiggestOrderTest - 2019.03.22 at 22h 40m 39s.xml">
-      <configuration name="BiggestOrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BiggestOrderTest - 2019.03.22 at 22h 41m 56s.xml">
-      <configuration name="BiggestOrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestOrderTest - 2019.03.22 at 22h 46m 10s.xml">
-      <configuration name="LargestOrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductItemInMoreOrdersTest - 2019.03.22 at 22h 50m 56s.xml">
-      <configuration name="ProductItemInMoreOrdersTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProductItemInMoreOrdersTest - 2019.03.22 at 22h 53m 37s.xml">
       <configuration name="ProductItemInMoreOrdersTest" configurationId="JUnit" />
     </history-entry>
@@ -490,6 +488,27 @@
     </history-entry>
     <history-entry file="StateWithMoreOrdersTest - 2019.03.22 at 23h 00m 48s.xml">
       <configuration name="StateWithMoreOrdersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MetricsUpdaterTest - 2019.03.22 at 23h 11m 53s.xml">
+      <configuration name="MetricsUpdaterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MetricsUpdaterTest - 2019.03.22 at 23h 12m 50s.xml">
+      <configuration name="MetricsUpdaterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MetricsUpdaterTest - 2019.03.22 at 23h 17m 47s.xml">
+      <configuration name="MetricsUpdaterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MetricsUpdaterTest - 2019.03.22 at 23h 18m 08s.xml">
+      <configuration name="MetricsUpdaterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryTest - 2019.03.22 at 23h 23m 43s.xml">
+      <configuration name="InventoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryTest - 2019.03.22 at 23h 26m 03s.xml">
+      <configuration name="InventoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventoryTest - 2019.03.22 at 23h 26m 55s.xml">
+      <configuration name="InventoryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -506,11 +525,11 @@
       <window_info id="Favorites" order="7" sideWeight="0.50110376" side_tool="true" weight="0.25757575" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32781458" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.25247526" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.25331125" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39933994" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -558,16 +577,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/InventoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/dataObjects/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -617,22 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/faireAPI/FaireAPIStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#2796#2797#0" expanded="true" />
-            <element signature="e#2825#2826#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -649,16 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/ProcessOrders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="78" column="28" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/BestSellingProductOptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_101/src.zip!/java/util/function/ToIntFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -775,7 +751,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/BiggestOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="e#709#710#0" expanded="true" />
             <element signature="e#744#745#0" expanded="true" />
@@ -785,17 +761,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/LargestOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" selection-start-line="17" selection-end-line="69" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/ProductItemInMoreOrders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -809,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/BiggestOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="16" selection-start-line="16" selection-end-line="62" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/TestConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -826,26 +788,95 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/metrics/StateWithMoreOrders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/BestSellingProductOptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/BiggestOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="45" selection-start-line="45" selection-end-line="46" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/LargestOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="49" selection-start-line="49" selection-end-line="50" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/StateWithMoreOrdersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        <state relative-caret-position="161">
+          <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/metrics/MetricsUpdaterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="249">
+          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faire/vanhackTest/ProcessOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/ProcessOrdersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/InventoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/faire/vanhackTest/faireAPI/FaireAPIStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="66" column="59" lean-forward="true" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
           </folding>
         </state>
       </provider>

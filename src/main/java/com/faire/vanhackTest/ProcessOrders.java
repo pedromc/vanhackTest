@@ -5,6 +5,7 @@ import com.faire.vanhackTest.dataObjects.OrderItem;
 import com.faire.vanhackTest.dataObjects.Product;
 import com.faire.vanhackTest.dataObjects.ProductOption;
 import com.faire.vanhackTest.faireAPI.FaireAPIInt;
+import com.faire.vanhackTest.metrics.MetricsUpdater;
 
 import java.util.List;
 
@@ -12,10 +13,12 @@ public class ProcessOrders {
 
     private FaireAPIInt faireAPI;
     private Inventory inventory;
+    private MetricsUpdater metrics;
 
-    public ProcessOrders(Inventory inventory, FaireAPIInt faireAPI) {
+    public ProcessOrders(Inventory inventory, FaireAPIInt faireAPI, MetricsUpdater metrics) {
         this.faireAPI = faireAPI;
         this.inventory = inventory;
+        this.metrics = metrics;
     }
 
 
@@ -32,6 +35,8 @@ public class ProcessOrders {
                 boolean allProductsAvailable = true;
                 boolean processOrder = true;
 
+                //update metrics
+                metrics.addOrder(itOrder);
 
                 //Only orders in the NEW state must be processed
                 if (itOrder.state != "NEW") {
@@ -39,6 +44,10 @@ public class ProcessOrders {
                 }
 
                 for (OrderItem itOrderItem : itOrder.items) {
+                    //update metrics
+                    metrics.addOrderItem(itOrderItem);
+
+
                     //If the order contains an element not in the inventory, it is a order of other brand,
                     //so It should not be processed
                     if (!inventory.checkItemInvetory(itOrderItem.product_option_id)) {
